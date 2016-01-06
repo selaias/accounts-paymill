@@ -1,14 +1,14 @@
-# accounts-WePay
+# accounts-paymill
 
 Login service for Paymill accounts in Meteor
 
 read more at [https://www.meteor.com/accounts] https://www.meteor.com/accounts
 
 
-Configure WePay login services. Example:
+Configure Paymill login services. Example:
 ```
 ServiceConfiguration.configurations.remove({
-    service: "Paymill"
+    service: "paymill"
   });
   
 ServiceConfiguration.configurations.upsert(
