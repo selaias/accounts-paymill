@@ -1,6 +1,6 @@
 Package.describe({
   name: 'selaias:accounts-paymill',
-  version: '0.2.0',
+  version: '0.3.0',
   summary: 'Login service for Paymill accounts',
   git: 'https://github.com/selaias/accounts-paymill.git',
   documentation: 'README.md'
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
   
-  api.use('selaias:oauth-paymill@0.2.0', ['client', 'server']);
+  api.use('selaias:oauth-paymill@0.3.0', ['client', 'server']);
 
   api.addFiles("paymill.js");
 
